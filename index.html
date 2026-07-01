@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hariprasad AP | AI Engineer &amp; Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Hariprasad AP, an MCA student specializing in AI, Machine Learning, and Software Engineering. View projects in offline semantic search, web scraping, and blockchain voting."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@coreui/icons/css/all.min.css"
+    />
+    <script>
+      (function() {
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav-bar">
+      <div class="nav-container">
+        <a href="#top" class="nav-logo" id="nav-logo-link">har1prasad</a>
+        <div class="nav-links">
+          <a href="#about" id="nav-about-link">About</a>
+          <a href="#skills" id="nav-skills-link">Skills</a>
+          <a href="#projects" id="nav-projects-link">Projects</a>
+          <a href="#education" id="nav-edu-link">Education</a>
+          <a href="#certifications" id="nav-cert-link">Certificates</a>
+          <a href="#contact" id="nav-contact-link">Contact</a>
+        </div>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Toggle visual theme"
+          id="theme-toggle-button"
+        >
+          <svg
+            class="sun-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg
+            class="moon-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="top">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <!-- <p class="hero-eyebrow">AI &amp; Software Engineering Intern</p> -->
+          <h1 class="hero-name">Hariprasad AP</h1>
+          <p class="hero-tagline">
+            MCA ’26 | Python Backend Developper | Exploring AI/ML | Building
+            intelligent, data-driven systems | Open to Work
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" id="hero-projects-btn"
+              >View My Work</a
+            >
+            <a href="#contact" class="btn btn-primary" id="hero-contact-btn"
+              >Get In Touch</a
+            >
+            <a
+              href="assets/Hariprasad_AI_Engineering_Intern.pdf"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-primary"
+              id="hero-resume-btn"
+              >View Resume</a
+            >
+          </div>
+
+          <div class="hero-socials">
+            <a
+              href="mailto:hariprasad5241@gmail.com"
+              class="social-link-icon-btn"
+              id="hero-social-email"
+              aria-label="Email"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/hariprasad-ap/"
+              target="_blank"
+              rel="noopener"
+              class="social-link-icon-btn"
+              id="hero-social-linkedin"
+              aria-label="LinkedIn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a
+              href="https://github.com/har1prasad"
+              target="_blank"
+              rel="noopener"
+              class="social-link-icon-btn"
+              id="hero-social-github"
+              aria-label="GitHub"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://x.com/Har1prasad"
+              target="_blank"
+              rel="noopener"
+              class="social-link-icon-btn"
+              id="hero-social-twitter"
+              aria-label="Twitter / X"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4l11.733 16h4.267l-11.733 -16z M4 20l6.768 -6.768 M20 4l-6.768 6.768"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://har1prasad.github.io/the-thinking-lab/"
+              target="_blank"
+              rel="noopener"
+              class="social-link-icon-btn"
+              id="hero-social-thinkinglab"
+              aria-label="The Thinking Lab"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path
+                  d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://leetcode.com/u/har1prasad/"
+              target="_blank"
+              rel="noopener"
+              class="social-link-icon-btn"
+              id="hero-social-leetcode"
+              aria-label="LeetCode"
+            >
+              <i class="cib-leetcode"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <img
+            src="assets/profile.jpg"
+            alt="Hariprasad AP Profile"
+            class="profile-img"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main class="main-content">
+      <!-- About Section -->
+      <section id="about" class="section reveal">
+        <h2 class="section-label">About</h2>
+        <div class="about-container">
+          <p class="about-body">
+            I'm a final-year MCA student focused on Python and backend
+            engineering, currently building toward AI/ML systems.
+          </p>
+
+          <p class="about-body">
+            My work focuses on the FastAPI backends, high-performance web
+            scrapers, and an offline semantic search engine I built from scratch
+            including FAISS, embeddings, local inference, no cloud dependency.
+          </p>
+
+          <p class="about-body">
+            Long-term, I want to build things that work at scale - software that
+            quietly does real work for real organizations, not just demos. Right
+            now that means going deep on backend fundamentals and learning how
+            ML systems actually get built and shipped, not just how they work in
+            theory.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section reveal">
+        <h2 class="section-label">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Core Languages</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>C / C++</li>
+              <li>Java</li>
+              <li>HTML5 / CSS3 / JavaScript</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>AI, ML &amp; NLP</h3>
+            <ul class="skill-list">
+              <li>Sentence Transformers</li>
+              <li>FAISS (Vector Similarity Search)</li>
+              <li>CNN (TensorFlow / Keras)</li>
+              <li>LLM API Integration (Gemini, DeepSeek)</li>
+              <li>NLP Fundamentals &amp; Embeddings</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks &amp; APIs</h3>
+            <ul class="skill-list">
+              <li>FastAPI</li>
+              <li>Streamlit</li>
+              <li>PySide6 (Qt)</li>
+              <li>Selenium / BeautifulSoup</li>
+              <li>Flutter</li>
+              <li>RESTful APIs</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Databases &amp; Workflows</h3>
+            <ul class="skill-list">
+              <li>SQLite</li>
+              <li>MySQL</li>
+              <li>ETL Pipelines</li>
+              <li>Data Preprocessing &amp; Cleaning</li>
+              <li>Pandas / NumPy / Matplotlib</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h2 class="section-label reveal">Proof of Work</h2>
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <article class="project-card reveal" id="project-pneumonia">
+            <div class="project-card-header">
+              <span class="project-category">Medical AI / CV</span>
+              <h3>Pneumonia Detection from X-Rays</h3>
+            </div>
+            <p class="project-desc">
+              A CNN model that classifies chest X-rays as Normal or Pneumonia,
+              built from scratch rather than fine-tuned from a pretrained model.
+            </p>
+            <ul class="project-details">
+              <li>
+                Designed a custom CNN architecture from scratch, avoiding
+                transfer-learning bias from models trained on natural images.
+              </li>
+              <li>
+                Fixed a class imbalance problem (74% vs 26%) using dynamic class
+                weights and orientation-safe augmentation.
+              </li>
+              <li>
+                Achieved 90.38% test accuracy, 96.84% recall, and 0.9542
+                ROC-AUC.
+              </li>
+              <li>
+                Built a Streamlit portal so the model's predictions and
+                performance charts are usable, not just numbers in a notebook.
+              </li>
+            </ul>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>TensorFlow</li>
+              <li>Keras</li>
+              <li>Streamlit</li>
+              <li>Scikit-Learn</li>
+              <li>NumPy</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/har1prasad/pneumonia-detection-cnn"
+                target="_blank"
+                rel="noopener"
+                class="link-repo"
+                >GitHub</a
+              >
+              <a
+                href="https://pneumonia-detection-cnn-har1prasad.streamlit.app/"
+                target="_blank"
+                rel="noopener"
+                class="link-repo"
+                >Live Demo</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal" id="project-local-ai">
+            <div class="project-card-header">
+              <span class="project-category">Final Year Project</span>
+              <h3>Local AI File Search Assistant</h3>
+            </div>
+            <p class="project-desc">
+              A fully offline desktop app that indexes files on your machine and
+              lets you search them by meaning, not just filename.
+            </p>
+            <ul class="project-details">
+              <li>
+                Generated dense vector embeddings locally using Sentence
+                Transformers.
+              </li>
+              <li>
+                Used FAISS for fast similarity search over the embeddings.
+              </li>
+              <li>
+                Built the desktop UI in PySide6 — runs entirely on-device, no
+                cloud calls at any point.
+              </li>
+              <li>
+                Handles recursive folder traversal, parsing, and indexing with
+                fast query response.
+              </li>
+              <li>
+                All embedding inference and storage happen on local hardware, so
+                nothing you search ever leaves your machine.
+              </li>
+            </ul>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>PySide6</li>
+              <li>Sentence Transformers</li>
+              <li>FAISS</li>
+              <li>SQLite</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/har1prasad/ai-file-search-assistant"
+                target="_blank"
+                rel="noopener"
+                class="link-repo"
+                >GitHub Repository</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal" id="project-scrappy-ai">
+            <div class="project-card-header">
+              <span class="project-category">AI Scraper Tool</span>
+              <h3>Scrappy_AI — AI-Powered Scraper</h3>
+            </div>
+            <p class="project-desc">
+              A web scraper you talk to in plain language — it figures out what
+              to extract and returns structured data.
+            </p>
+            <ul class="project-details">
+              <li>
+                Built the scraping layer with Selenium and BeautifulSoup to
+                handle dynamic, JS-rendered pages.
+              </li>
+              <li>
+                Used the Gemini API to turn a natural-language request into
+                structured, schema-based extraction.
+              </li>
+              <li>
+                Built a Streamlit interface with automated DOM chunking and
+                content cleaning.
+              </li>
+              <li>
+                Benchmarked a local Ollama/DeepSeek setup before switching to
+                Gemini API for better latency — kept the local option in mind
+                for cost and privacy tradeoffs.
+              </li>
+            </ul>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Selenium</li>
+              <li>BeautifulSoup</li>
+              <li>Streamlit</li>
+              <li>Gemini API</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/har1prasad/Scrappy_AI"
+                target="_blank"
+                rel="noopener"
+                class="link-repo"
+                >GitHub Repository</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card reveal" id="project-votebloc">
+            <div class="project-card-header">
+              <span class="project-category">Academic Project</span>
+              <h3>VoteBloc — Blockchain Voting Backend</h3>
+            </div>
+            <p class="project-desc">
+              A university project exploring how blockchain concepts could
+              secure a digital voting system. I built the backend.
+            </p>
+            <ul class="project-details">
+              <li>
+                Built the backend with FastAPI and MySQL to handle user data and
+                voting logic.
+              </li>
+              <li>
+                Implemented a basic blockchain structure to record votes as
+                tamper-evident entries.
+              </li>
+              <li>
+                Frontend was HTML/CSS/JS with a Flutter-based responsive layer,
+                built alongside teammates.
+              </li>
+            </ul>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>MySQL</li>
+              <li>Flutter</li>
+              <li>HTML/CSS/JS</li>
+            </ul>
+
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card reveal" id="project-thinking-lab">
+            <div class="project-card-header">
+              <span class="project-category">Public Learning Log</span>
+              <h3>The Thinking Lab</h3>
+            </div>
+            <p class="project-desc">
+              A public learning diary where I write out CS fundamentals and DSA
+              concepts in my own words, to check if I actually understand them.
+            </p>
+            <ul class="project-details">
+              <li>Built with MkDocs Material, hosted on GitHub Pages.</li>
+              <li>
+                Every concept is explained the way I'd explain it to someone
+                else — the Feynman technique, used as a real check on my own
+                understanding.
+              </li>
+              <li>
+                Includes build logs from my other projects — what broke, what I
+                changed, and why.
+              </li>
+              <li>
+                Global search, clean code blocks, and a reading experience I
+                actually wanted to use myself.
+              </li>
+            </ul>
+            <ul class="tag-list">
+              <li>MkDocs Material</li>
+              <li>Markdown</li>
+              <li>Git</li>
+              <li>GitHub Pages</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/har1prasad/the-thinking-lab"
+                target="_blank"
+                rel="noopener"
+                class="link-repo"
+                >GitHub</a
+              >
+              <a
+                href="https://har1prasad.github.io/the-thinking-lab/"
+                target="_blank"
+                rel="noopener"
+                class="link-repo"
+                >Live Diary</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card reveal" id="project-flashcards">
+            <div class="project-card-header">
+              <span class="project-category">Desktop App</span>
+              <h3>FlashcardApp — Learning Tool</h3>
+            </div>
+            <p class="project-desc">
+              A simple desktop flashcard app using spaced repetition, built
+              because I wanted one that worked the way I studied.
+            </p>
+            <ul class="project-details">
+              <li>
+                Built the GUI in Tkinter for reviewing custom vocabulary sets.
+              </li>
+              <li>
+                Used pandas and CSV files to track and log review progress over
+                time.
+              </li>
+              <li>Added timed card flips and spaced review intervals.</li>
+            </ul>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Tkinter</li>
+              <li>Pandas</li>
+              <li>CSV Automation</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/har1prasad/Flashcard-Learning-App"
+                target="_blank"
+                rel="noopener"
+                class="link-repo"
+                >GitHub Repository</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section reveal">
+        <h2 class="section-label">Education</h2>
+        <div class="education-container">
+          <!-- Edu Item 1 -->
+          <div class="edu-card">
+            <div class="edu-card-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
+                />
+                <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" />
+              </svg>
+            </div>
+            <div class="edu-card-content">
+              <div class="edu-card-header">
+                <span class="edu-date"
+                  >Nov 2024 — Oct 2026 (Currently Pursuing)</span
+                >
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p class="edu-institution">
+                  Presidency College (Autonomous) — Bengaluru, India
+                </p>
+              </div>
+              <p class="edu-desc">
+                Specializing in AI and Data Science. Core curriculum covers
+                Neural Networks, Machine Learning algorithms, and advanced
+                database architectures.
+              </p>
+            </div>
+          </div>
+
+          <!-- Edu Item 2 -->
+          <div class="edu-card">
+            <div class="edu-card-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
+                />
+                <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" />
+              </svg>
+            </div>
+            <div class="edu-card-content">
+              <div class="edu-card-header">
+                <span class="edu-date">Jul 2021 — Apr 2024</span>
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p class="edu-institution">
+                  College of Applied Science IHRD — Calicut, India
+                </p>
+              </div>
+              <p class="edu-desc">
+                Undergraduate foundations in computer applications, programming
+                paradigms, and mathematics. Developed solid theoretical and
+                practical skills in object-oriented logic, data structures, and
+                relational databases.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications & Practice -->
+      <section id="certifications" class="section reveal">
+        <h2 class="section-label">Certifications</h2>
+        <div class="certifications-list">
+          <a
+            href="https://www.coursera.org/account/accomplishments/specialization/RLVLNXF82ENY"
+            target="_blank"
+            rel="noopener"
+            class="cert-item"
+            id="cert-coursera-deeplearning"
+          >
+            <div class="cert-info">
+              <h4>
+                Deep Learning with Python: CNN, ANN &amp; RNN Specialization
+              </h4>
+              <span class="cert-provider">Coursera</span>
+            </div>
+            <span class="cert-link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+          </a>
+          <a
+            href="https://verify.skilljar.com/c/2iafmyvyj68b"
+            target="_blank"
+            rel="noopener"
+            class="cert-item"
+            id="cert-anthropic"
+          >
+            <div class="cert-info">
+              <h4>AI Fluency: Framework &amp; Foundations</h4>
+              <span class="cert-provider">Anthropic</span>
+            </div>
+            <span class="cert-link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+          </a>
+          <a
+            href="https://www.udemy.com/certificate/UC-5c9b9a23-a776-432d-8ff6-a1a4ceccdd4b/"
+            target="_blank"
+            rel="noopener"
+            class="cert-item"
+            id="cert-udemy-bootcamp"
+          >
+            <div class="cert-info">
+              <h4>100 Days of Code: The Complete Python Pro Bootcamp</h4>
+              <span class="cert-provider">Udemy</span>
+            </div>
+            <span class="cert-link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+          </a>
+          <a
+            href="https://www.freecodecamp.org/certification/Har1prasad/scientific-computing-with-python-v7"
+            target="_blank"
+            rel="noopener"
+            class="cert-item"
+            id="cert-fcc-scientific"
+          >
+            <div class="cert-info">
+              <h4>Scientific Computing with Python</h4>
+              <span class="cert-provider">freeCodeCamp</span>
+            </div>
+            <span class="cert-link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+          </a>
+          <a
+            href="https://www.coursera.org/account/accomplishments/verify/MVNZD1309OJ2"
+            target="_blank"
+            rel="noopener"
+            class="cert-item"
+            id="cert-coursera-opensource"
+          >
+            <div class="cert-info">
+              <h4>Open Source Software Development Methods</h4>
+              <span class="cert-provider">The Linux Foundation (Coursera)</span>
+            </div>
+            <span class="cert-link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+          </a>
+          <a
+            href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_ifs2xZdeq3Z4SMEBn_1753017377065_completion_certificate.pdf"
+            target="_blank"
+            rel="noopener"
+            class="cert-item"
+            id="cert-forage-deloitte"
+          >
+            <div class="cert-info">
+              <h4>Deloitte Australia – Data Analytics Job Simulation</h4>
+              <span class="cert-provider">Forage</span>
+            </div>
+            <span class="cert-link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+          </a>
+          <a
+            href="https://www.udemy.com/certificate/UC-459bf2b2-d0b7-4d5e-ae4f-1e4e370ebfcf/"
+            target="_blank"
+            rel="noopener"
+            class="cert-item"
+            id="cert-udemy-agile"
+          >
+            <div class="cert-info">
+              <h4>Agile Project Management Prep + Scrum + Jira</h4>
+              <span class="cert-provider">Udemy</span>
+            </div>
+            <span class="cert-link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section reveal">
+        <h2 class="section-label">Contact</h2>
+        <div class="contact-split">
+          <div class="contact-message">
+            <p class="contact-lead">
+              Final-year MCA student, open to opportunities in software and AI.
+            </p>
+            <div class="status-indicators">
+              <div class="status-item">
+                <span class="status-dot green"></span>
+                <span class="status-text"
+                  >Open to: internships, full-time roles, project
+                  collaboration</span
+                >
+              </div>
+              <div class="status-item">
+                <span class="status-dot blue"></span>
+                <span class="status-text"
+                  >Location: Open to relocation / remote</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="contact-methods">
+            <a
+              href="mailto:hariprasad5241@gmail.com"
+              class="contact-method-card"
+              id="contact-email"
+            >
+              <div class="method-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  ></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="method-details">
+                <span class="method-name">Email</span>
+                <span class="method-value">hariprasad5241@gmail.com</span>
+              </div>
+            </a>
+
+            <div class="contact-social-buttons">
+              <a
+                href="https://linkedin.com/in/hariprasad-ap"
+                target="_blank"
+                rel="noopener"
+                class="contact-btn"
+                id="contact-linkedin"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a
+                href="https://github.com/har1prasad"
+                target="_blank"
+                rel="noopener"
+                class="contact-btn"
+                id="contact-github"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://x.com/Har1prasad"
+                target="_blank"
+                rel="noopener"
+                class="contact-btn"
+                id="contact-twitter"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4l11.733 16h4.267l-11.733 -16z M4 20l6.768 -6.768 M20 4l-6.768 6.768"
+                  ></path>
+                </svg>
+                <span>Twitter / X</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2026 Hariprasad AP. Built with the assistance of AI.</p>
+        <a href="#top" class="back-to-top" id="back-to-top-btn"
+          >Back to top &uarr;</a
+        >
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
