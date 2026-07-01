@@ -317,6 +317,13 @@ body {
   box-shadow: 0 4px 12px rgba(194, 65, 12, 0.08);
 }
 
+.hero-interactive-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+}
+
 .hero-actions {
   display: flex;
   gap: 1.5rem;
@@ -986,7 +993,13 @@ body {
     height: 220px;
   }
 
-  .hero-actions {
+  .hero-interactive-block {
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .hero-actions,
+  .hero-socials {
     justify-content: center;
   }
 
