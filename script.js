@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (savedTheme) {
     root.setAttribute('data-theme', savedTheme);
   } else {
-    root.setAttribute('data-theme', 'dark');
+    root.setAttribute('data-theme', 'light');
   }
 
   themeToggle.addEventListener('click', () => {
