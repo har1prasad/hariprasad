@@ -610,6 +610,17 @@ body {
   border-color: var(--accent);
 }
 
+.edu-logo {
+  max-width: 85%;
+  max-height: 85%;
+  object-fit: contain;
+  transition: var(--transition);
+}
+
+.edu-card:hover .edu-logo {
+  transform: scale(1.08);
+}
+
 .edu-card-content {
   flex-grow: 1;
 }
